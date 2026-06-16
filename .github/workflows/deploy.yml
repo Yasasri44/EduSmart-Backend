@@ -19,4 +19,4 @@ jobs:
           script: |
             cd /home/yasasripasala/EduSmart-Backend
             git pull origin main
-            sudo systemctl restart edusmart
+            sudo /bin/systemctl restart edusmart
