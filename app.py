@@ -10,7 +10,7 @@ class LoginRequest(BaseModel):
 @app.get("/")
 def home():
     return {
-        "message": "EduSmart API Running"
+        "message": "CI/CD Working Successfully"
     }
 
 @app.post("/login")
